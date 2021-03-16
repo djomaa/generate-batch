@@ -1,7 +1,7 @@
 {
-  "name": "batch-pairs-generator",
+  "name": "ebatch",
   "version": "1.0.0",
-  "description": "",
+  "description": "generate batch pairs from X to Y using batch with Z size using callback",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' npx mocha -r ts-node/register 'tests/**/*.ts'",
     "build": "yarn clean && npx tsc"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "demid.mosko@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "debug": "^4.3.1"
   },
