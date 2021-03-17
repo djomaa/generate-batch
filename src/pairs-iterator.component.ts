@@ -21,8 +21,8 @@ export function batchPairs(...args: ConstructorParameters<typeof BatchPairs>) {
     return new BatchPairs(...args);
 }
 
-export function batchIterate<T>(cb: Action<T>, ...pairsParams: Parameters<typeof generatePairs>): Promise<T[]> {
-    const pairs = generatePairs(...pairsParams);
+export function batchIterate<T>(from: number, to: number, batch: number, cb: Action<T>): Promise<T[]> {
+    const pairs = generatePairs(from, to, batch);
     return batchIterateOverPairs(pairs, cb);
 }
 
