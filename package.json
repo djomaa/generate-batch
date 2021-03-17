@@ -1,6 +1,6 @@
 {
   "name": "ebatch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "generate batch pairs from X to Y using batch with Z size using callback",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

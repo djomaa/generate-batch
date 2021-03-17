@@ -2,7 +2,7 @@
 Generates batch pairs from `X` to `Y` with `Z` batch size. F.e.
 ```
 from 100 to 104 with 2 batch size:
-[ [100, 101], [101, 102], [104, 104] ];
+[ [100, 101], [102, 103], [104, 104] ];
 ```
 Also there is an async one-by-one (like waterfall) iterator.
 ## Usage:
