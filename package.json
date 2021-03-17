@@ -1,9 +1,14 @@
 {
   "name": "ebatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generate batch pairs from X to Y using batch with Z size using callback",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "keywords": ["batch", "iterator", "for", "pairs", "from", "to", "generator"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djomaa/generate-batch.git"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' npx mocha -r ts-node/register 'tests/**/*.ts'",
