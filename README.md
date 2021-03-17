@@ -7,7 +7,7 @@ from 100 to 104 with 2 batch size:
 Also there is an async one-by-one (like waterfall) iterator.
 ## Usage:
 ```
-const { batchIterate } = require('../dist');
+const { batchIterate } = require('ebatch');
 const BATCH_SIZE = 1e3;
 const from = 0;
 const to = 20e3;
