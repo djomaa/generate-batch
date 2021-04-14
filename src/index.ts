@@ -1,4 +1,4 @@
-export { generatePairs } from './generate-pairs';
-export * from './pairs-iterator.component';
-
+export * from './iterator';
+export * from './pairs';
+export * from './iterate'
 

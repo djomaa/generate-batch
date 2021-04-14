@@ -4,19 +4,29 @@
   "description": "generate batch pairs from X to Y using batch with Z size using callback",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "keywords": ["batch", "iterator", "for", "pairs", "from", "to", "generator"],
+  "keywords": [
+    "batch",
+    "iterator",
+    "for",
+    "pairs",
+    "from",
+    "to",
+    "generator"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/djomaa/generate-batch.git"
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' npx mocha -r ts-node/register 'tests/**/*.ts'",
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"target\": \"es5\", \"module\": \"commonjs\" }' npx mocha -r ts-node/register 'tests/**/*.ts'",
+    "test:coverage": "npx nyc mocha -r ts-node/register 'tests/**/*.ts'",
     "build": "yarn clean && npx tsc"
   },
   "author": "demid.mosko@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "nyc": "^15.1.0"
   },
   "devDependencies": {
     "@types/debug": "^4.1.5",
