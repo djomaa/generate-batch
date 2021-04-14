@@ -1,3 +1,6 @@
+[![Downloads](https://img.shields.io/npm/dm/ebatch?label=Downloads)](https://www.npmjs.com/package/ebatch)
+[![codecov](https://codecov.io/gh/djomaa/generate-batch/branch/1.1.0/graph/badge.svg?token=DPEXGZ7F22)](https://codecov.io/gh/djomaa/generate-batch)
+
 # Batch Pairs Generator
 Generates batch pairs from `X` to `Y` with `Z` batch size. F.e.
 ```
