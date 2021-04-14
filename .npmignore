@@ -2,3 +2,5 @@ examples
 src
 tests
 yarn-*
+.env
+.codecov.sh
