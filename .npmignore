@@ -2,3 +2,8 @@ examples
 src
 tests
 yarn-*
+.env
+codecov.bash
+coverage
+README.MD
+CHANGELOG.MD
