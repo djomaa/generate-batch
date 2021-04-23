@@ -3,4 +3,7 @@ src
 tests
 yarn-*
 .env
-.codecov.sh
+codecov.bash
+coverage
+README.MD
+CHANGELOG.MD
